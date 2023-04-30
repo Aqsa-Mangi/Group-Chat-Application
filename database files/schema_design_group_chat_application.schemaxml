@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemadesigner version="6.5">
+<source>
+<database charset="utf8mb4" collation="utf8mb4_general_ci">group_chat_application</database>
+</source>
+<canvas zoom="100">
+<tables>
+<table name="chat_messages" view="standard">
+<left>548</left>
+<top>80</top>
+<width>239</width>
+<height>153</height>
+<sql_create_table>CREATE TABLE `chat_messages` (
+  `msg_id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) DEFAULT NULL,
+  `text_message` text DEFAULT NULL,
+  `send_time` varchar(150) DEFAULT NULL,
+  PRIMARY KEY (`msg_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci</sql_create_table>
+</table>
+<table name="users" view="standard">
+<left>255</left>
+<top>69</top>
+<width>260</width>
+<height>200</height>
+<sql_create_table>CREATE TABLE `users` (
+  `user_id` int(11) NOT NULL AUTO_INCREMENT,
+  `first_name` varchar(200) NOT NULL,
+  `last_name` varchar(200) NOT NULL,
+  `user_email` varchar(200) NOT NULL,
+  `password` varchar(200) NOT NULL,
+  `user_image` varchar(200) DEFAULT NULL,
+  `is_online` int(11) NOT NULL,
+  `logout_time` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci</sql_create_table>
+</table>
+</tables>
+</canvas>
+</schemadesigner>
