@@ -1,0 +1,124 @@
+body
+{
+	padding: 0px;
+	margin: 0px;
+	background-color: beige;
+}
+#button
+{
+	padding: 5px;
+}
+table
+{
+	padding: 10px;
+}
+#FS
+{
+	width: 50%;
+	background-color: lightgray;
+	border-radius: 10px;
+	border: 1px groove;
+}
+#header
+{
+	width: 40%;
+	background-color: lightgray;
+	border-radius: 10px;
+	padding: 5px;
+	border: 1px groove;
+
+}
+.row
+{
+	clear: both;
+}
+.col-header
+{
+	float: left;
+	width: 100%;
+	border: 1px groove;
+	background-color: lightsteelblue;
+
+}
+
+#col-messages
+{
+	float: left;
+	width: 75%;
+	height: 570px;
+	border: 1px groove;
+	background-color: lightsteelblue;
+	overflow-y: auto;
+}
+#col-users
+{
+	float: right;
+	width: 24.78%;
+	border: 1px groove;
+	height: 570px;
+	background-color: lightgray;
+	overflow-y: auto;
+
+}
+img
+{
+	width: 50px;
+	height: 50px;
+	float: left;
+	border-radius: 100px;
+}
+#logout
+{
+	float: right;
+	margin-right: 20px;
+
+}
+.send_msg
+{
+	float: left;
+	width: 100%;
+
+}
+#msg
+{
+	padding: 8px;
+	width: 68%;
+	height: 24px;
+}
+#button-send
+{
+	padding: 5px;
+	width: 5%;
+}
+#offline-user
+{
+	background-color: beige;
+	width: 100%;
+	float: left;
+}
+#online-user
+{
+	background-color: lightsteelblue;
+	width: 100%;
+	float: left;
+}
+#sender
+{	
+	width: 60%;
+	float: left;
+	background-color: lightgray;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 5px;
+
+}
+#reciever
+{
+	width: 60%;
+	float: right;
+	background-color: beige;
+	padding: 10px;
+	border-radius: 10px;
+	margin: 5px;
+
+}
